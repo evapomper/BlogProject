@@ -4,13 +4,13 @@
 - ugettext
 - force_text
 
-_Needs to be replaced:_
+**Needs to be replaced:**
 
-**For django.conf.urls use**
+For django.conf.urls use
 ```from django.urls import re_path as url
 
-**For ugettext use**
+For ugettext use
 ```from django.utils.translation import gettext_lazy as _
 
-**for force_text use**
+for force_text use
 ```from django.utils.encoding import force_str as force_text
